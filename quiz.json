@@ -1,0 +1,52 @@
+[
+    {
+      "pergunta": "Quantos itens uma fornalha assa com um balde de lava?",
+      "alternativas": ["100", "25", "74", "14", "69"],
+      "resposta": 0
+    },
+    {
+      "pergunta": "Quanto custa a troca mais cara do jogo?",
+      "alternativas": ["36", "24", "64", "52"],
+      "resposta": 2
+    },
+    {
+      "pergunta": "Qual é a dureza da bedrock?",
+      "alternativas": ["Infinita", "18 Milhões", "32 Milhões", "6 Milhões"],
+      "resposta": 1
+    },
+    {
+      "pergunta": "Qual é o tamanho de uma chunk?",
+      "alternativas": ["16x16", "32x32", "8x8", "64x64"],
+      "resposta":  0
+    },
+    {
+      "pergunta": "Em que ano foi criado o Minecraft",
+      "alternativas": ["2011", "2009", "2013", "2007"],
+      "resposta": 1
+    },
+    {
+      "pergunta": "Quem é mais forte?",
+      "alternativas": ["Ender Dragon", "Wither", "Warden", "Iron Golem"],
+      "resposta": 2
+    },
+    {
+      "pergunta": "Quantos itens cabem em um baú duplo?",
+      "alternativas": ["1748", "836", "1264", "1728"],
+      "resposta": 3
+    },
+    {
+      "pergunta": "Quantos itens é necessário para fazer uma armadura completa?",
+      "alternativas": ["32", "24", "28", "36"],
+      "resposta": 1
+    },
+    {
+      "pergunta": "Qual o minério mais raro do jogo?",
+      "alternativas": ["esmeralda", "netherita", "ouro", "diamante"],
+      "resposta": 0
+    },
+    {
+      "pergunta": "Quanta vida tem o Ender Dragon",
+      "alternativas": ["100", "400", "200", "50"],
+      "resposta": 2
+    }
+  ]

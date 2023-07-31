@@ -1,0 +1,74 @@
+body {
+  background-image: url("./assets/stone.jpg");
+}
+@font-face {
+  font-family: minefont;
+  src: url("./assets/Minecraftia-Regular.ttf");
+}
+.pergunta {
+  font-family: minefont;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(48, 48, 48);
+}
+.quiz {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-color: rgb(255, 249, 195);
+  border: 1px solid black;
+}
+#numerodapergunta {
+  position: absolute;
+  text-align: center;
+  font-family: minefont;
+  color: white;
+  background-color: green;
+}
+#numerodapergunta > h1 {
+  margin: 0;
+}
+.alternativas {
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+  margin-bottom: 1vw;
+}
+.alternativas > button {
+  transition: .3s;
+}
+.alternativas > button:hover{
+  background-color: rgb(196, 196, 196);
+  transform: scale(120%);
+  cursor: pointer;
+}
+.alternativas > :is(button, p) {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(219, 219, 219);
+  border: 1px solid black;
+}
+#popup {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column-reverse;
+  position: absolute;
+  background-color: rgb(255, 249, 195);
+  top: 40%;
+  left: 44%;
+  border: 1px solid black;
+  animation-name: aparecer;
+  animation-duration: .1s;
+}
+#popup > button {
+  font-size: 1rem;
+}
+@keyframes aparecer {
+  from {
+    transform: scale(0%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
