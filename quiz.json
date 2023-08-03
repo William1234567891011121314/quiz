@@ -1,32 +1,32 @@
 [
     {
       "pergunta": "Quantos itens uma fornalha assa com um balde de lava?",
-      "alternativas": ["100", "25", "74", "14", "69"],
+      "alternativas": ["100", "25", "74", "14", "69", "347", "42", "89", "38", "23"],
       "resposta": 0
     },
     {
       "pergunta": "Quanto custa a troca mais cara do jogo?",
-      "alternativas": ["36", "24", "64", "52"],
+      "alternativas": ["36", "24", "64", "52", "484", "90", "13", "47", "79", "14"],
       "resposta": 2
     },
     {
       "pergunta": "Qual é a dureza da bedrock?",
-      "alternativas": ["Infinita", "18 Milhões", "32 Milhões", "6 Milhões"],
+      "alternativas": ["Infinita", "18 Milhões", "32 Milhões", "6 Milhões", "90 Milhões", "45 Milhões", "26 Milhões", "69 Milhões", "285 Milhões"],
       "resposta": 1
     },
     {
       "pergunta": "Qual é o tamanho de uma chunk?",
-      "alternativas": ["16x16", "32x32", "8x8", "64x64"],
+      "alternativas": ["16x16", "32x32", "8x8", "64x64", "256x256", "512x512", "4x4", "90x90", "35x35", "48x48"],
       "resposta":  0
     },
     {
       "pergunta": "Em que ano foi criado o Minecraft",
-      "alternativas": ["2011", "2009", "2013", "2007"],
+      "alternativas": ["2011", "2009", "2013", "2007", "2004", "2001", "2018", "1998", "2014", "2006"],
       "resposta": 1
     },
     {
       "pergunta": "Quem é mais forte?",
-      "alternativas": ["Ender Dragon", "Wither", "Warden", "Iron Golem"],
+      "alternativas": ["Ender Dragon", "Wither", "Warden", "Iron Golem", "Lobo", "Steve", "Piglin Brute", "Charged Creeper", "Enderman", "Villager"],
       "resposta": 2
     },
     {
