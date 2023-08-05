@@ -31,22 +31,22 @@
     },
     {
       "pergunta": "Quantos itens cabem em um baú duplo?",
-      "alternativas": ["1748", "836", "1264", "1728"],
+      "alternativas": ["1748", "836", "1264", "1728", "542", "784", "917", "1826", "2665", "1978"],
       "resposta": 3
     },
     {
       "pergunta": "Quantos itens é necessário para fazer uma armadura completa?",
-      "alternativas": ["32", "24", "28", "36"],
+      "alternativas": ["32", "24", "28", "36", "78", "15", "24", "38", "47", "39"],
       "resposta": 1
     },
     {
       "pergunta": "Qual o minério mais raro do jogo?",
-      "alternativas": ["esmeralda", "netherita", "ouro", "diamante"],
-      "resposta": 0
+      "alternativas": ["Esmeralda", "Netherita", "Ouro", "Diamante", "Redstone", "Carvão", "Cobre", "Ferro", "Quartzo"],
+      "resposta": 1
     },
     {
       "pergunta": "Quanta vida tem o Ender Dragon",
-      "alternativas": ["100", "400", "200", "50"],
+      "alternativas": ["100", "400", "200", "50", "20", "1000", "800", "760", "140", "600"],
       "resposta": 2
     }
   ]

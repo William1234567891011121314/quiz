@@ -32,7 +32,7 @@ body {
 .alternativas {
   display: flex;
   justify-content: center;
-  gap: 8vw;
+  gap: 2%;
   margin-bottom: 1vw;
 }
 .alternativas > button {

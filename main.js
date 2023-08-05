@@ -8,7 +8,6 @@ async function main() {
   const reiniciar = new Audio('./assets/reiniciar.ogg');
 
   let numeroDaPergunta = 0;
-  let acertos = 0;
   let erros = 0;
 
   elAlternativas = document.querySelector(".alternativas");
@@ -20,6 +19,10 @@ async function main() {
     numeroDaPergunta.innerHTML = nPergunta
     if (nPergunta >= quiz.length) {
       elPergunta.innerHTML = "Acabou! Os seus resultados foram:";
+      let acertos = quiz.length - erros;
+      if(acertos<0){
+        acertos = 0;
+      }
       elAlternativas.innerHTML = `<p>Erros: ${erros}</p><p>Acertos: ${acertos}</p>`;
       return;
     }
@@ -35,7 +38,6 @@ async function main() {
     const numeroDaAlternativaClicada = arrayAlternativas.indexOf(alternativaClicada);
     if (numeroDaAlternativaClicada === quiz[numeroDaPergunta].resposta && jogando) {
       levelup.play();
-      acertos++;
       carregarPergunta(++numeroDaPergunta);
       return;
     }
@@ -44,9 +46,9 @@ async function main() {
     }
     popup.innerHTML = '<button class="continuarbutton">Continuar</button><h1>ERRADO!</h1>';
     popup.style.display = "flex";
+    erros++;
     bigornahit.play()
     jogando = false;
-    return;
   })
   function atualizarnumerodapergunta() {
     nperguntagui.innerHTML = numeroDaPergunta+1;
@@ -56,7 +58,7 @@ async function main() {
       carregarPergunta(0);
       popup.style.display = "none";
       numeroDaPergunta = 0;
-      erros++;
+      atualizarnumerodapergunta();
       jogando = true;
       popup.innerHTML = '';
       reiniciar.play();
